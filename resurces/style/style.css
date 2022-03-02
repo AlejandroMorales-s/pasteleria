@@ -116,6 +116,8 @@ p{
 .header__text__info{
     display: inline-block;
     border: 0.4rem solid var(--primario);
+    padding: 1rem;
+    -webkit-text-stroke: 0.5px black;
 }
 .header__texto__si{
     background-color: var(--primario);
@@ -184,6 +186,12 @@ p{
 }
 .card__img12{
     background-image: url(../images/zanahoria.jpg);
+}
+.card__img13{
+    background-image: url(../images/flores.jpg);
+}
+.card__img14{
+    background-image: url(../images/boda.jpg);
 }
 .card__title{
     margin: 1rem 0;
