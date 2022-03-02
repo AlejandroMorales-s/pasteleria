@@ -169,6 +169,18 @@ img{
 .card__img8{
     background-image: url(../images/cumpleaños.jpg);
 }
+.card__img9{
+    background-image: url(../images/red-velvet.jpg);
+}
+.card__img10{
+    background-image: url(../images/napolitano.jpg);
+}
+.card__img11{
+    background-image: url(../images/coco.webp);
+}
+.card__img12{
+    background-image: url(../images/zanahoria.jpg);
+}
 .card__title{
     margin: 1rem 0;
 }
@@ -198,4 +210,23 @@ img{
 .footer{
     background-color: var(--primario);
     padding: 2.5rem 0;
+}
+
+
+/*SABORES*/
+
+/*Nav*/
+.nav__container{
+    background-color: var(--primario);
+    height: 10rem
+}
+
+/*Sabores*/
+.card__container__grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    column-gap: 2.5rem;
 }
