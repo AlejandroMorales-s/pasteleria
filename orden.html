@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="resurces/images/Logo.png" sizes="16x16">
+    <!--CSS-->
+    <link rel="stylesheet" href="resurces/style/style.css">
+    <title>Orden</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="nav__container">
+        <div class="contenedor barra">
+            <a class="logo" href="index.html">
+                <img class="logo__img" src="resurces/images/Logo.png" alt="">
+            </a>
+            <nav class="nav">
+                <a class="nav__enlace nav__enlace__global" href="orden.html">Ordena</a>
+                <a class="nav__enlace nav__enlace__global" href="adornos.html">Adornos</a>
+                <a class="nav__enlace nav__enlace__global" href="sabores.html">Sabores</a>
+            </nav>
+        </div>
+    </header>
+
+        <!--Trabajos-->
+    <main>
+        <h3 class="title no-margin">Haz tu pedido</h3>
+        <div class="contacto-container contenedor">
+            <div class="contacto__img"></div>
+            <div class="prueba">
+                <form class="formulario">
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre</label>
+                        <input class="campo__field" id="nombre" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="telefono">Teléfono</label>
+                        <input class="campo__field" id="telefono" type="tel" name="telefono" maxlength="10" placeholder="Teléfono">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label"  for="email">Email</label>
+                        <input class="campo__field" id="email" type="email" placeholder="Tu Correo">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label"  for="texto">Mensaje</label>
+                        <textarea class="campo__field" name="" id="texto" cols="30" rows="10"></textarea>
+                    </div>
+                    <!--Sabores-->
+                    <div class="select__sabores">
+                        <h4 class="centrar-texto">Sabor(es)</h4>
+                        <div class="select__sabores__container">
+                            <input type="checkbox" id="chocolate" name="chocolate" value="Chocolate">
+                            <label for="chocolate">Chocolate</label><br>
+                            <input type="checkbox" id="red-velvet" name="red-velvet" value="Red Velvet">
+                            <label for="red-velvet">Red Velvet</label><br>
+                            <input type="checkbox" id="vainilla" name="vainilla" value="Vainilla">
+                            <label for="vainilla">Vainilla</label><br>
+                            <input type="checkbox" id="zanahoria" name="zanahoria" value="Zanahoria">
+                            <label for="zanahoria">Zanahoria</label><br>
+                            <input type="checkbox" id="fresa" name="fresa" value="Fresa">
+                            <label for="fresa">Fresa</label><br>
+                            <input type="checkbox" id="limon" name="limon" value="Limon">
+                            <label for="limon">Limón</label><br>
+                            <input type="checkbox" id="coco" name="coco" value="Coco">
+                            <label for="coco">Coco</label><br>
+                            <input type="checkbox" id="napolitano name="napolitano" value="Napolitano">
+                            <label for="napolitano">Napolitano</label><br>
+                        </div>
+                    </div>
+                    <!--Adornos-->
+                    <div class="select__sabores">
+                        <h4 class="centrar-texto">Adornos</h4>
+                        <div class="select__sabores__container">
+                            <input type="checkbox" id="velas" name="velas" value="Velas">
+                            <label for="velas">Velas</label><br>
+                            <input type="checkbox" id="velas-cumpleaños" name="velas-cumpleaños" value="Vela de cumpleaños">
+                            <label for="velas-cumpleaños">Vela de cumpleaños</label><br>
+                            <input type="checkbox" id="graduacion" name="graduacion" value="Graduación">
+                            <label for="graduacion">Graduación</label><br>
+                            <input type="checkbox" id="cumpleaños" name="cumpleaños" value="Cumpleaños">
+                            <label for="cumpleaños">Cumpleaños</label><br>
+                            <input type="checkbox" id="flores" name="flores" value="Flores">
+                            <label for="flores">Flores</label><br>
+                            <input type="checkbox" id="boda" name="boda" value="Boda">
+                            <label for="boda">Boda</label><br>
+
+                        </div>
+                    </div>
+                    <div class="enviar-container">
+                        <input type="submit" value="Enviar" class="btn">
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+        <h3 class="title no-margin">Nos ubicamos en</h3>
+        <div class="contenedor contenedor__bg contenedor__info">
+            <h4 class="title__info title">Dirección:</h4>
+            <p class="info__pasteleria">Av. Aztecas 224, Los Reyes, Coyoacán, 04330 Ciudad de México, CDMX, México</p>
+            <h4 class="title__info title">Teléfono:</h4>
+            <p class="info__pasteleria">5589284602</p>
+            <h4 class="title__info title">Horarios de atención:</h4>
+            <p class="info__pasteleria">
+                Lunes a Viernes: 9am - 9pm <br>
+                Sábado: 9am - 5pm
+            </p>
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="contenedor footer__container">
+            <p class="no-margin footer__text">Todos los derechos reservados. Alejandro Morales 2022.</p>
+        </div>
+    </footer>
+</body>
+</html>
