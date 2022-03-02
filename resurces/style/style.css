@@ -63,6 +63,9 @@ h4{
 img{
     max-width: 100%;
 }
+p{
+    font-family: var(--fuenteParrafos);
+}
 
 /*Utilidades*/
 .no-margin{
@@ -94,6 +97,7 @@ img{
 }
 .nav__enlace{
     color: var(--blanco);
+    font-weight: 600;
 }
 /*Header*/
 .header{
@@ -111,7 +115,7 @@ img{
 }
 .header__text__info{
     display: inline-block;
-
+    border: 0.4rem solid var(--primario);
 }
 .header__texto__si{
     background-color: var(--primario);
@@ -219,6 +223,9 @@ img{
 .nav__container{
     background-color: var(--primario);
     height: 10rem
+}
+.nav__enlace__global{
+    color: var(--negro);
 }
 
 /*Sabores*/
