@@ -157,6 +157,18 @@ img{
 .card__img4{
     background-image: url(../images/limon.jpg);
 }
+.card__img5{
+    background-image: url(../images/vela.jpg);
+}
+.card__img6{
+    background-image: url(../images/vela-num.jpg);
+}
+.card__img7{
+    background-image: url(../images/graduacion.jpg);
+}
+.card__img8{
+    background-image: url(../images/cumpleaños.jpg);
+}
 .card__title{
     margin: 1rem 0;
 }
