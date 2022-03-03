@@ -318,7 +318,8 @@ p{
     margin: 1rem auto;
 }
 .info__pasteleria{
-    align-self: center;
+    text-align: center;
+    margin: 0 auto;
 }
 .contenedor__info{
     padding: 1.2rem 0;
