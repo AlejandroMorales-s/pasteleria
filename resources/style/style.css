@@ -256,6 +256,7 @@ p{
     height: 50rem;
     max-width: 100%;
     margin: 0 auto;
+    border-radius: 0.5rem;
 }
 .title{
     text-align: center;
@@ -291,6 +292,7 @@ p{
 .select__sabores__container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .title__info{
     margin: 1rem auto;
@@ -300,4 +302,12 @@ p{
 }
 .contenedor__info{
     padding: 1.2rem 0;
+}
+.enviar-container{
+    display: flex;
+    justify-content: end;
+}
+.btn__submit{
+    border: none;
+    margin: 1rem 0 0 0;
 }
