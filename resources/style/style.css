@@ -124,6 +124,11 @@ p{
     border-radius: 0.5rem;
     padding-bottom: 5rem;
 }
+@media (max-width: 768px) {
+    .contenedor__bg{
+        width: 95%;
+    }
+}
 .title{
     align-self: center;
     margin: 6rem 0;
@@ -133,6 +138,11 @@ p{
     gap: 2.5rem;
     width: 95%;
     margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .card__container{
+        flex-direction: column;
+    }
 }
 .card__img{
     border-radius: 0.5rem;
@@ -244,6 +254,11 @@ p{
     width: 95%;
     column-gap: 2.5rem;
 }
+@media (max-width: 768px) {
+    .card__container__grid{
+        grid-template-columns: 1fr;
+    }
+}
 
 /*ORDENA*/
 
@@ -293,6 +308,11 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+@media (max-width: 768px) {
+    .select__sabores__container{
+        display: block;
+    }
 }
 .title__info{
     margin: 1rem auto;
