@@ -89,7 +89,21 @@ p{
     color: var(--blanco);
     font-weight: 600;
 }
-
+@media (max-width: 480px) {
+    .barra{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .contenedor{
+        margin: 0 0;
+        width: 100%;
+        height: fit-content;
+    }
+}
 
 /*Header*/
 .header{
@@ -103,6 +117,11 @@ p{
     text-align: center;
     color: var(--blanco);
     margin-top: 20rem;
+}
+@media (max-width: 480px) {
+    .header__texto{
+        margin-top: 26rem;
+    }
 }
 .header__text__info{
     display: inline-block;
@@ -141,6 +160,13 @@ p{
 }
 @media (max-width: 768px) {
     .card__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .card__container{
+        display: flex;
         flex-direction: column;
     }
 }
@@ -216,6 +242,11 @@ p{
     color: var(--negro);
     font-weight: bold;
 }
+@media (max-width: 480px) {
+    .btn-width{
+        width: 100%;
+    }
+}
 .btn__text{
     color: var(--negro);
     font-weight: bold;
@@ -244,17 +275,29 @@ p{
 .nav__enlace__global{
     color: var(--negro);
 }
+@media (max-width: 480px) {
+    .nav__container{
+        height: fit-content;
+        padding-bottom: 2.5rem;
+    }
+}
 
 /*Sabores*/
 .card__container__grid{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 95%;
     column-gap: 2.5rem;
 }
+
 @media (max-width: 768px) {
+    .card__container__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
     .card__container__grid{
         grid-template-columns: 1fr;
     }
@@ -273,6 +316,11 @@ p{
     margin: 0 auto;
     border-radius: 0.5rem;
 }
+@media (max-width: 768px) {
+    .contacto-container{
+        width: 100%;
+    }
+}
 .title{
     text-align: center;
 }
@@ -284,6 +332,11 @@ p{
     margin: -7rem auto 0 auto;
     box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.5);
     border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+    .prueba{
+        max-width: 95%;
+    }
 }
 .campo{
     margin-bottom: 3rem;
@@ -305,14 +358,70 @@ p{
     border-radius: 0.5rem;
 }
 .select__sabores__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
 }
 @media (max-width: 768px) {
     .select__sabores__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width: 480px) {
+    .select__sabores__container{
         display: block;
     }
+}
+.select__sabores__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.i1{
+    background-image: url(../images/chocolate.jpg);
+}
+.i2{
+    background-image: url(../images/red-velvet.jpg);
+}
+.i3{
+    background-image: url(../images/vainilla.jpg);
+}
+.i4{
+    background-image: url(../images/zanahoria.jpg);
+}
+.i5{
+    background-image: url(../images/fresa.jpg);
+}
+.i6{
+    background-image: url(../images/limon.jpg);
+}
+.i8{
+    background-image: url(../images/coco.webp);
+}
+.i9{
+    background-image: url(../images/napolitano.jpg);
+}
+.i10{
+    background-image: url(../images/vela.jpg);
+}
+.i11{
+    background-image: url(../images/vela-num.jpg);
+}
+.i12{
+    background-image: url(../images/graduacion.jpg);
+}
+.i13{
+    background-image: url(../images/cumpleaños.jpg);
+}
+.i14{
+    background-image: url(../images/flores.jpg);
+}
+.i15{
+    background-image: url(../images/boda.jpg);
+}
+.card__label{
+    margin-top: 1.5rem;
 }
 .title__info{
     margin: 1rem auto;
