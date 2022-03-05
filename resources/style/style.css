@@ -1,3 +1,4 @@
+
 :root{
     --fuenteHeadings: 'Poppins', sans-serif;
     --fuenteParrafos: 'Poppins', sans-serif;
@@ -128,6 +129,7 @@ p{
     border: 0.4rem solid var(--primario);
     padding: 1rem;
     -webkit-text-stroke: 0.5px black;
+    border-radius: 1rem;
 }
 .header__texto__si{
     background-color: var(--primario);
@@ -241,6 +243,9 @@ p{
     border-radius: 0.5rem;
     color: var(--negro);
     font-weight: bold;
+}
+.btn__nav{  
+    margin-right: 0;
 }
 @media (max-width: 480px) {
     .btn-width{
